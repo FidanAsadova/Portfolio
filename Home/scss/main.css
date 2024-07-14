@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+#home header {
+  background-color: rgba(16, 99, 78, 0.9);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+#home header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+#home header .header .logo a {
+  text-decoration: none;
+}
+#home header .header .logo a p {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}
+#home header .header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+#home header .header nav ul li a {
+  text-decoration: none;
+  color: gainsboro;
+  font-weight: 500;
+  font-size: 18px;
+}
+#home header .header nav ul li a:hover {
+  color: #e0b17e;
+  transition: 0.3s;
+  border-bottom: 1px solid #e0b17e;
+}
+#home .bg-home .row .col {
+  padding-left: 0;
+  padding-right: 0;
+}
+#home .bg-home .row .col #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption {
+  top: 300px;
+  bottom: 300px;
+}
+#home .bg-home .row .col #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .floral {
+  color: #1b745e;
+}
+#home .bg-home .row .col #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .excellent {
+  color: #1b745e;
+  font-size: 50px;
+}
+
+#our-mission {
+  background-image: url("../img/background2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#our-mission .row {
+  padding: 150px 0;
+}
+#our-mission .row .bg-green {
+  background-color: #1b745e;
+}
+#our-mission .row .bg-green .left-green {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+#our-mission .row .bg-green .left-green .btn {
+  background-color: #C4D5C0;
+}
+
+#flowers {
+  background-image: url("../img/background1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#flowers .container .flowers {
+  padding: 150px 0;
+}
+#flowers .container .flowers p {
+  color: #1b745e;
+}
+#flowers .container .flowers .pricing {
+  font-size: 50px;
+  font-weight: 350;
+  color: #0C5B47;
+}
+
+#events {
+  background-image: url("../img/background1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#events .container .events {
+  padding: 150px 0;
+}
+#events .container .events p {
+  color: #1b745e;
+}
+#events .container .events .pricing {
+  font-size: 50px;
+  font-weight: 350;
+  color: #0c5b47;
+}
+#events .container .events .row .col .events-box {
+  border: 1px solid #1b745e;
+  padding: 40px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#events .container .events .row .col .events-box .price {
+  font-size: 40px;
+}
+#events .container .events .row .col .events-box .bday {
+  font-size: 35px;
+  font-weight: 300;
+}
+#events .container .events .row .col .events-box .btn {
+  border: transparent;
+  width: 50%;
+  background-color: #C4D5C0;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+#team {
+  background-color: #fff;
+}
+#team .container .team {
+  padding: 100px 0;
+}
+#team .container .team p {
+  color: #1b745e;
+}
+#team .container .team .pricing {
+  font-size: 50px;
+  font-weight: 350;
+  color: #0C5B47;
+}
+#team .container .team .member .member-name {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+footer {
+  background-color: #e0ecdc;
+}
+footer .container .footer .row .f-top .input-btn #footer-email {
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  border: transparent;
+  font-style: italic;
+}
+footer .container .footer .row .f-top .input-btn .btn {
+  background-color: #c4d5c0;
+}
+footer .container .footer .row .f-bottom .contacts .row .col p {
+  color: #1b745e;
+  font-size: 20px;
+}
+footer .container .footer .row .f-bottom .contacts .row .col ul li a {
+  text-decoration: none;
+  color: #1b745e;
+  font-style: italic;
+}
+
+#addFlowers header {
+  background-color: rgba(16, 99, 78, 0.9);
+  width: 100%;
+}
+#addFlowers header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+#addFlowers header .header .logo a {
+  text-decoration: none;
+}
+#addFlowers header .header .logo a p {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}
+#addFlowers header .header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+#addFlowers header .header nav ul li a {
+  text-decoration: none;
+  color: gainsboro;
+  font-weight: 500;
+  font-size: 18px;
+}
+#addFlowers header .header nav ul li a:hover {
+  color: #e0b17e;
+  transition: 0.3s;
+  border-bottom: 1px solid #e0b17e;
+}
+
+#add {
+  padding: 100px 0;
+}/*# sourceMappingURL=main.css.map */

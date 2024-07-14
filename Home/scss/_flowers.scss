@@ -1,0 +1,18 @@
+#flowers {
+  background-image: url("../img/background1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .container {
+    .flowers {
+      padding: 150px 0;
+      p {
+        color: #1b745e;
+      }
+      .pricing{
+        font-size: 50px;
+        font-weight: 350;
+        color: #0C5B47;
+      }
+    }
+  }
+}

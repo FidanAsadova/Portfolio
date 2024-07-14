@@ -1,0 +1,48 @@
+{
+  "flower": [
+    {
+      "img": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b4.jpg",
+      "name": "Dahlia",
+      "price": 45,
+      "id": 1
+    },
+    {
+      "img": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b3.jpg",
+      "name": "Mazus",
+      "price": "52",
+      "id": 2
+    },
+    {
+      "img": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
+      "name": "Pansies",
+      "price": 65,
+      "id": 3
+    },
+    {
+      "img": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
+      "name": "Pansies",
+      "price": 65,
+      "id": 5
+    },
+    {
+      "img": "https://preview.colorlib.com/theme/drimo/drimo/img/domain-bg.jpg",
+      "name": "Flower Data",
+      "price": "79",
+      "id": 6
+    }
+  ],
+  "fav": [
+    {
+      "img": "https://mobirise.com/extensions/floram4/floral-studio/assets/images/b2.jpg",
+      "name": "Pansies",
+      "price": 65,
+      "id": 5
+    },
+    {
+      "img": "https://preview.colorlib.com/theme/drimo/drimo/img/domain-bg.jpg",
+      "name": "Flower Data",
+      "price": "79",
+      "id": 6
+    }
+  ]
+}

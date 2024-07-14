@@ -1,0 +1,47 @@
+#addFlowers {
+  header {
+    background-color: rgba(16, 99, 78, 0.9);
+    width: 100%;
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 0;
+      .logo {
+        a {
+          text-decoration: none;
+          p {
+            font-size: 25px;
+            font-weight: 600;
+            color: white;
+          }
+        }
+      }
+      nav {
+        ul {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          gap: 30px;
+          li {
+            a {
+              text-decoration: none;
+              color: gainsboro;
+              font-weight: 500;
+              font-size: 18px;
+              &:hover {
+                color: #e0b17e;
+                transition: 0.3s;
+                border-bottom: 1px solid #e0b17e;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#add{
+    padding: 100px 0;
+}

@@ -1,0 +1,21 @@
+#our-mission {
+  background-image: url("../img/background2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .row {
+    padding: 150px 0;
+    .bg-green {
+      background-color: #1b745e;
+      .left-green {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        .btn{
+            background-color: #C4D5C0;
+        }
+      }
+    }
+  }
+}
