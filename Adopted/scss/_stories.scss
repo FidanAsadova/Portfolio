@@ -1,0 +1,26 @@
+#stories {
+  .container {
+    .stories {
+      .head {
+        p {
+          font-size: 35px;
+          font-weight: 400;
+        }
+      }
+    }
+    .row {
+      .col {
+        .hover-div {
+          overflow: hidden;
+          img {
+            transition: 0.3s;
+            &:hover {
+              transition: 0.3s all ease;
+              transform: scale(1.1);
+            }
+          }
+        }
+      }
+    }
+  }
+}

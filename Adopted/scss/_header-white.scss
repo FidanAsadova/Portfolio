@@ -1,0 +1,38 @@
+#head-white {
+  background-color: #fff;
+  width: 100%;
+  .container {
+    #whiteHeader {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 0;
+      .logo{
+        p{
+            font-size: 23px;
+            font-weight: 400;
+            margin-bottom: 0;
+        }
+      }
+      nav {
+        .list {
+          display: flex;
+          align-items: center;
+          margin: 0;
+          padding: 0;
+          gap: 30px;
+          li {
+            a {
+              text-decoration: none;
+              color: gray;
+              &:hover {
+                color: darkred;
+                transition: 0.5s;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

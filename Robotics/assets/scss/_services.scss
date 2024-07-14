@@ -1,0 +1,28 @@
+#services {
+  background-image: url("../img/feature-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .container {
+    .services {
+      padding: 100px 0;
+      .head {
+        .serv-title {
+          font-size: 40px;
+          font-weight: 700;
+        }
+      }
+      .row {
+        .col {
+          .serv-box {
+            .icon-p {
+              .box-title {
+                font-size: 20px;
+                font-weight: 500;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

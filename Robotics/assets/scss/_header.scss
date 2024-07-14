@@ -1,0 +1,35 @@
+header {
+  background: transparent;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  .container {
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 0;
+      .logo {
+        margin: 0;
+        padding: 0;
+        img {
+          width: 100%;
+        }
+      }
+      nav {
+        .header-ul {
+          display: flex;
+          width: 100%;
+          gap: 30px;
+          align-items: center;
+          li{
+            a{
+                text-decoration: none;
+                color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

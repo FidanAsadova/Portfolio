@@ -1,0 +1,31 @@
+#blog {
+  .container {
+    .blog {
+      padding: 100px 0;
+      .head {
+      }
+      .blog-title {
+        font-size: 40px;
+        font-weight: 700;
+      }
+      .row {
+        .col {
+          .girl-box {
+            .box-items{
+                .item-title{
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+            }
+            .btns {
+              .btn {
+                background-color: #cd95ff;
+                padding: 10px 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

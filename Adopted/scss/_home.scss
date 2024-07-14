@@ -1,0 +1,28 @@
+#home {
+  .home {
+    #carouselExampleCaptions {
+      .carousel-inner {
+        .carousel-item {
+          .carousel-caption {
+            top: 300px;
+            .row {
+              .col {
+                .years {
+                  font-family: "Dancing Script", cursive;
+                  font-size: 35px;
+                }
+                .bold-text {
+                  font-size: 35px;
+                  font-weight: 700;
+                }
+                .lorem{
+                    color: gray;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

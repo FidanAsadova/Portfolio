@@ -1,0 +1,50 @@
+header {
+  background-color: darkred;
+  width: 100%;
+  #redHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    .icons {
+      ul {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        gap: 30px;
+        li {
+          a {
+            .fa-brands {
+                color: black;
+              &:hover {
+                color: white;
+                transition: .5s;
+              }
+            }
+          }
+        }
+      }
+    }
+    nav {
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin: 0;
+        padding: 0;
+        li {
+          a {
+            text-decoration: none;
+            color: black;
+            height: 100%;
+            &:hover{
+                color: white;
+                transition: .5s;
+            }
+          }
+        }
+      }
+    }
+  }
+}

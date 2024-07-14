@@ -1,0 +1,20 @@
+#home {
+  background-image: url(../img/banner-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  .container {
+    .home {
+      padding: 100px 0;
+      .row {
+        .col {
+          .info {
+            .improved {
+              font-size: 60px;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+  }
+}
