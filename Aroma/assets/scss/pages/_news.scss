@@ -1,0 +1,28 @@
+#news {
+  .container {
+    .news {
+      padding-bottom: 100px;
+      .head {
+        .border-span {
+          border-bottom: 2px solid #384aeb;
+        }
+      }
+      .row {
+        .col {
+          .news-bottom {
+            .read-a {
+              text-decoration: none;
+              color: black;
+            }
+          }
+          &:hover .title-bold {
+            color: #384aeb;
+          }
+          &:hover .read-a {
+            color: #384aeb;
+          }
+        }
+      }
+    }
+  }
+}

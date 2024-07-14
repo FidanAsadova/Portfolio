@@ -1,0 +1,55 @@
+{
+  "products": [
+    {
+      "title": "Accessories",
+      "body": "Quartz Belt Watch",
+      "price": 250,
+      "img": "https://preview.colorlib.com/theme/aroma/img/product/product1.png",
+      "id": 1
+    },
+    {
+      "title": "Beauty",
+      "body": "Women Freshwash",
+      "price": 150,
+      "img": "https://preview.colorlib.com/theme/aroma/img/product/product2.png",
+      "id": 2
+    },
+    {
+      "title": "Decor",
+      "body": "Room Flash Light",
+      "price": 200,
+      "img": "https://preview.colorlib.com/theme/aroma/img/product/product3.png",
+      "id": 3
+    },
+    {
+      "title": "Accessories",
+      "body": "Man Office Bag",
+      "price": 100,
+      "img": "https://preview.colorlib.com/theme/aroma/img/product/product5.png",
+      "id": 4
+    },
+    {
+      "title": "Accessories",
+      "body": "Quartz Belt Watch",
+      "price": 70,
+      "img": "https://preview.colorlib.com/theme/aroma/img/product/product7.png",
+      "id": 5
+    }
+  ],
+  "fav": [
+    {
+      "title": "Beauty",
+      "body": "Women Freshwash",
+      "price": 150,
+      "img": "https://preview.colorlib.com/theme/aroma/img/product/product2.png",
+      "id": 2
+    },
+    {
+      "title": "Decor",
+      "body": "Room Flash Light",
+      "price": 200,
+      "img": "https://preview.colorlib.com/theme/aroma/img/product/product3.png",
+      "id": 3
+    }
+  ]
+}
