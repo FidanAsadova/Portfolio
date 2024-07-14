@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+#home header {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+#home header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+#home header .header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+#home header .header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+#home header .header nav ul li a:hover {
+  color: red;
+  transition: 0.3s;
+  border-bottom: 1px solid #e0b17e;
+}
+
+#bg-home .row .col {
+  padding-left: 0;
+  padding-right: 0;
+}
+#bg-home .row .col #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption {
+  top: 300px;
+  bottom: 300px;
+}
+#bg-home .row .col #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .hello {
+  font-size: 50px;
+  font-weight: 600;
+}
+#bg-home .row .col #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .sub {
+  font-size: 20px;
+  font-weight: 500;
+}
+#bg-home .row .col #carouselExampleCaptions .carousel-inner .carousel-item .carousel-caption .see-btn:hover {
+  background-color: darkred;
+  transition: 0.7s;
+}
+
+#about .container .about {
+  padding: 100px 0;
+}
+#about .container .about .head .title {
+  font-size: 40px;
+  font-weight: 700;
+  border-bottom: 2px solid red;
+}
+#about .container .about .img-div {
+  display: flex;
+  justify-content: center;
+}
+#about .container .about .img-div img {
+  border: 1px solid darkred;
+  border-radius: 50%;
+  margin: 25px;
+  padding: 25px;
+  width: 100px;
+}
+
+#add header {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+#add header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+#add header .header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+#add header .header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+#add header .header nav ul li a:hover {
+  color: red;
+  transition: 0.3s;
+  border-bottom: 1px solid #e0b17e;
+}
+
+.addIcon {
+  padding: 150px 0;
+}
+
+#team .container .team {
+  padding: 100px 0;
+}
+#team .container .team .head .title {
+  font-size: 40px;
+  font-weight: 500;
+  border-bottom: 2px solid red;
+}
+#team .container .team .row .col .member {
+  overflow: hidden;
+}
+#team .container .team .row .col .member img {
+  transition: 0.3s;
+}
+#team .container .team .row .col .member img:hover {
+  transition: 0.3s all ease;
+  transform: scale(1.1);
+}
+#team .container .team .row .col .member .info {
+  background-color: #e6e6e6;
+}
+
+#blog .container .blog {
+  padding: 100px 0;
+}
+#blog .container .blog .head .title {
+  font-size: 40px;
+  font-weight: 500;
+  border-bottom: 2px solid red;
+}
+#blog .container .blog .row .col .newBlog {
+  overflow: hidden;
+}
+#blog .container .blog .row .col .newBlog img {
+  transition: 0.3s;
+}
+#blog .container .blog .row .col .newBlog img:hover {
+  transition: 0.3s all ease;
+  transform: scale(1.1);
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,31 @@
+#team {
+  .container {
+    .team {
+      padding: 100px 0;
+      .head {
+        .title {
+          font-size: 40px;
+          font-weight: 500;
+          border-bottom: 2px solid red;
+        }
+      }
+      .row {
+        .col {
+          .member {
+            overflow: hidden;
+            img {
+              transition: 0.3s;
+              &:hover {
+                transition: 0.3s all ease;
+                transform: scale(1.1);
+              }
+            }
+            .info {
+              background-color: #e6e6e6;
+            }
+          }
+        }
+      }
+    }
+  }
+}

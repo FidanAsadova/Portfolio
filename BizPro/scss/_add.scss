@@ -1,0 +1,39 @@
+#add {
+  header {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 0;
+      nav {
+        ul {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          gap: 30px;
+          li {
+            a {
+              text-decoration: none;
+              color: white;
+              font-weight: 500;
+              font-size: 15px;
+              &:hover {
+                color: red;
+                transition: 0.3s;
+                border-bottom: 1px solid #e0b17e;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.addIcon{
+    padding: 150px 0;
+}
