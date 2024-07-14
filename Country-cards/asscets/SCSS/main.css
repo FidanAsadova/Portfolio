@@ -1,0 +1,105 @@
+#home {
+  background: #f2f2f2;
+}
+#home .container .header {
+  height: 80px;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+}
+#home .container .allCards .row .col {
+  margin-bottom: 80px;
+}
+#home .container .allCards .row .col a {
+  text-decoration: none;
+  color: black;
+}
+#home .container .allCards .row .col a .card {
+  height: 336px;
+  width: 264px;
+  border-radius: 5px;
+  margin-bottom: 63px;
+}
+#home .container .allCards .row .col a .card .img-div {
+  height: 50%;
+}
+#home .container .allCards .row .col a .card .card-body {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#home .hero .head {
+  margin-top: 48px;
+}
+#home .hero .head .search {
+  height: 56px;
+  width: 480px;
+  border-radius: 5px;
+}
+#home .hero .head .select {
+  height: 56px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+#main .container .header {
+  height: 80px;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+  margin-bottom: 90px;
+}
+#main .container .back-arrow {
+  margin-bottom: 90px;
+}
+#main .container .back-arrow a {
+  text-decoration: none;
+  color: black;
+}
+#main .info {
+  margin-bottom: 260px;
+}
+#main .info .row .allInfo {
+  display: flex;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+}
+#main .info .row .allInfo .country-img {
+  height: 483px;
+  width: 560px;
+}
+#main .info .row .allInfo .country-img img {
+  border-radius: 8px;
+}
+#main .info .row .allInfo .country-info {
+  width: 50%;
+}
+#main .info .row .allInfo .country-info h3 {
+  margin-bottom: 23px;
+}
+#main .info .row .allInfo .country-info .rl-info {
+  display: flex;
+  margin-bottom: 70px;
+}
+#main .info .row .allInfo .country-info .rl-info .left {
+  height: 160px;
+  width: 300px;
+}
+#main .info .row .allInfo .country-info .rl-info .right {
+  height: 96px;
+  width: 200px;
+}
+#main .info .row .allInfo .country-info .border-countrys {
+  display: flex;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+#main .info .row .allInfo .country-info .border-countrys p {
+  border: 1px solid gray;
+  padding: 1px 25px;
+}/*# sourceMappingURL=main.css.map */

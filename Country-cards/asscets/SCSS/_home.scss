@@ -1,0 +1,55 @@
+#home {
+  background: #f2f2f2;
+  .container {
+    .header {
+      height: 80px;
+      border-radius: 0px;
+      display: flex;
+      align-items: center;
+      background: #ffffff;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+    }
+    .allCards {
+      .row {
+        .col {
+          margin-bottom: 80px;
+          // column-gap: 75px;
+          a {
+            text-decoration: none;
+            color: black;
+            .card {
+              height: 336px;
+              width: 264px;
+              border-radius: 5px;
+              margin-bottom: 63px;
+              .img-div {
+                height: 50%;
+              }
+              .card-body {
+                height: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .hero {
+    .head {
+      margin-top: 48px;
+      .search {
+        height: 56px;
+        width: 480px;
+        border-radius: 5px;
+      }
+      .select {
+        height: 56px;
+        width: 200px;
+        border-radius: 5px;
+      }
+    }
+  }
+}

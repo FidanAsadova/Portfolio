@@ -1,0 +1,64 @@
+#main {
+  // height: 100vh;
+  .container {
+    .header {
+      height: 80px;
+      border-radius: 0px;
+      display: flex;
+      align-items: center;
+      background: #ffffff;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0562443);
+      margin-bottom: 90px;
+    }
+    .back-arrow {
+      margin-bottom: 90px;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+  .info {
+    margin-bottom: 260px;
+    .row {
+      .allInfo {
+        display: flex;
+        column-gap: 100px;
+        .country-img {
+          height: 483px;
+          width: 560px;
+          img {
+            border-radius: 8px;
+          }
+        }
+        .country-info {
+          width: 50%;
+          h3 {
+            margin-bottom: 23px;
+          }
+          .rl-info {
+            display: flex;
+            // column-gap: 50px;
+            margin-bottom: 70px;
+            .left {
+              height: 160px;
+              width: 300px;
+            }
+            .right {
+              height: 96px;
+              width: 200px;
+            }
+          }
+          .border-countrys{
+            display: flex;
+            column-gap: 15px;
+            p{
+              border: 1px solid gray;
+              padding: 1px 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
