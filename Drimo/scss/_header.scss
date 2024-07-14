@@ -1,0 +1,34 @@
+header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+    nav {
+      ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        margin: 0;
+        li {
+          a {
+            text-decoration: none;
+            color: black;
+            &:hover {
+              color: blue;
+              transition: 1s;
+            }
+          }
+        }
+      }
+    }
+  }
+}

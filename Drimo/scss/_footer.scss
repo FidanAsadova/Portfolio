@@ -1,0 +1,50 @@
+#footer {
+  background-color: #f9faff;
+  padding-top: 60px;
+  .container {
+    .footer {
+      .top-footer {
+        .logo-footer {
+          .icons {
+            a {
+              .fa-brands &:hover {
+                color: orangered;
+                transition: 1s;
+              }
+            }
+          }
+        }
+        .contact {
+          padding-bottom: 60px;
+          .row {
+            .col {
+              p {
+                font-size: 20px;
+              }
+              ul {
+                li {
+                  a {
+                    text-decoration: none;
+                    color: gray;
+                    font-weight: 400;
+                    &:hover {
+                      color: orangered;
+                      transition: 1s;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      p {
+        margin: 0;
+        padding: 30px 0;
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+#client {
+  background-color: #7db9e8;
+  padding: 80px 0;
+  .head {
+    .client-p {
+      font-size: 40px;
+      font-weight: 100;
+      color: white;
+      letter-spacing: 5px;
+    }
+    .border-client {
+      border-bottom: 2px solid white;
+      width: 5%;
+    }
+  }
+  .row {
+    .col {
+      .img-p {
+        .border-radius{
+            border: 1px solid white;
+            background-color: white;
+            border-radius: 50%;
+            i{
+                font-size: 28px;
+            }
+        }
+        .num-p {
+            
+          .num {
+            font-weight: 700;
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+}

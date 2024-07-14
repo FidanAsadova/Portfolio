@@ -1,0 +1,62 @@
+#home {
+  background-image: url("../img/server-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+  position: relative;
+  z-index: -1;
+  padding: 100px 0;
+  .home {
+    .head {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .bg-orange-parg {
+        background-color: orangered;
+        max-width: 60%;
+        padding: 15px 50px;
+        h1 {
+          color: white;
+        }
+      }
+    }
+  }
+  .row {
+    .col-md-8 {
+      .info-left {
+        p {
+          color: white;
+        }
+        #best-web {
+          font-size: 50px;
+          font-weight: 500;
+        }
+        #create {
+          font-size: 40px;
+          font-weight: 100;
+        }
+        #long {
+          font-size: 20px;
+        }
+      }
+    }
+    .bottom-info {
+      .row {
+        .col {
+          p {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  #btn-started {
+    background-color: orangered;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer !important;
+  }
+}
